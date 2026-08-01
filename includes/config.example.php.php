@@ -1,9 +1,10 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','ems');
+define('DB_HOST','localhost'); // Change to your live host
+define('DB_USER','YOUR_DATABASE_USERNAME');
+define('DB_PASS','YOUR_DATABASE_PASSWORD');
+define('DB_NAME','YOUR_DATABASE_NAME');
+
 // Establish database connection.
 try
 {

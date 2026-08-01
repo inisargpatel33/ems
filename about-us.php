@@ -4,6 +4,9 @@ session_start();
 include('includes/config.php');
 error_reporting(0);
 ?>
+
+<?php
+<p style="margin-top:2%"><?php echo $row->PageDetails;?></p>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>

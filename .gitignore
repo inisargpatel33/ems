@@ -1,0 +1,16 @@
+# Secure Configuration Files
+includes/config.php
+admin/includes/config.php
+Razorpay.php
+
+
+# Uploaded images 
+admin/eventimages/
+admin/sponsers/
+
+# Dependencies
+vendor/
+
+# OS hidden files
+.DS_Store
+Thumbs.db
