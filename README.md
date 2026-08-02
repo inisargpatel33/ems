@@ -14,13 +14,6 @@ Objectives
 - Provide Customer Support: Offer assistance to attendees before and during the concert.  
 - Manage Marketing and Promotions: Help in advertising and promoting the event.  
 
-Hardware and Software Requirements  
-- Operating System: Windows or any equivalent  
-- RAM: 512MB minimum  
-- Hard Disk Space: 512GB minimum  
-- Database: mySQL  
-- Browser: Any standard web browser  
-
 Features  
 Admin Features  
 - Dashboard: View an overview of the event, including event bookings, users, categories, and sponsors.  
@@ -58,8 +51,8 @@ Step 1: Set up the Project Folder
 Step 2: Database Configuration
 1. Open your XAMPP Control Panel and start the **Apache** and **MySQL** modules.
 2. Open your web browser and navigate to `http://localhost/phpmyadmin`.
-3. Create a new database named `ems_db`.
-4. Click on the `ems_db` database, go to the **Import** tab, and upload the `ems_db.sql` file located in the root of this repository.
+3. Create a new database named `ems`.
+4. Click on the `ems` database, go to the **Import** tab, and upload the `ems.sql` file located in the root of this repository.
 
 Step 3: Update Connection Settings
 If your local MySQL setup uses a password (by default, XAMPP does not), update the database credentials in the following files:
